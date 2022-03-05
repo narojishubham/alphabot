@@ -1,0 +1,631 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "wrap": true,
+              "text": "HR Bot",
+              "horizontalAlignment": "Left",
+              "style": "heading",
+              "fontType": "Default",
+              "size": "Medium"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": " Yesterday",
+              "wrap": true,
+              "horizontalAlignment": "Center",
+              "weight": "Lighter",
+              "color": "Light",
+              "style": "default",
+              "fontType": "Default"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "Input.Time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "New Candidate for Hire",
+      "wrap": true,
+      "fontType": "Default",
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "style": "default",
+      "separator": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Relevant people have been added to this channel to review hire for David Martinez",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "style": "emphasis",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "width": "stretch",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "Candidate Details",
+                                  "wrap": true,
+                                  "style": "heading"
+                                },
+                                {
+                                  "type": "ColumnSet",
+                                  "columns": [
+                                    {
+                                      "type": "Column",
+                                      "width": "auto",
+                                      "items": [
+                                        {
+                                          "type": "TextBlock",
+                                          "text": "Name:",
+                                          "wrap": true,
+                                          "style": "heading",
+                                          "size": "Default"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "Column",
+                                      "width": "stretch",
+                                      "items": [
+                                        {
+                                          "type": "TextBlock",
+                                          "text": "David Martinez",
+                                          "wrap": true
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "spacing": "Medium"
+                                },
+                                {
+                                  "type": "ColumnSet",
+                                  "columns": [
+                                    {
+                                      "type": "Column",
+                                      "width": "stretch",
+                                      "items": [
+                                        {
+                                          "type": "ColumnSet",
+                                          "columns": [
+                                            {
+                                              "type": "Column",
+                                              "width": "auto",
+                                              "items": [
+                                                {
+                                                  "type": "TextBlock",
+                                                  "text": "Position:",
+                                                  "wrap": true,
+                                                  "style": "heading",
+                                                  "size": "Default"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "Column",
+                                              "width": "stretch",
+                                              "items": [
+                                                {
+                                                  "type": "TextBlock",
+                                                  "text": "Senior MTS Developer",
+                                                  "wrap": true
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "ColumnSet",
+                                          "columns": [
+                                            {
+                                              "type": "Column",
+                                              "width": "stretch",
+                                              "items": [
+                                                {
+                                                  "type": "ColumnSet",
+                                                  "columns": [
+                                                    {
+                                                      "type": "Column",
+                                                      "width": "auto",
+                                                      "items": [
+                                                        {
+                                                          "type": "TextBlock",
+                                                          "text": "Location",
+                                                          "wrap": true,
+                                                          "style": "heading",
+                                                          "size": "Default"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": "Column",
+                                                      "width": "stretch",
+                                                      "items": [
+                                                        {
+                                                          "type": "TextBlock",
+                                                          "text": "Cupertino HQ",
+                                                          "wrap": true
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://jegxdwep1p-flywheel.netdna-ssl.com/wp-content/uploads/2016/09/tumblr_o05v3eZmyT1ugn1wu_og_1280-1080x675.png",
+                  "horizontalAlignment": "Center",
+                  "spacing": "None",
+                  "width": "130px",
+                  "height": "1px"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        }
+      ],
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Interview Feedback",
+              "wrap": true,
+              "style": "heading",
+              "size": "Medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Who",
+                      "wrap": true,
+                      "horizontalAlignment": "Center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+                      "size": "Small",
+                      "style": "Person"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+                      "size": "Small",
+                      "style": "Person"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Large"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+                      "size": "Small",
+                      "style": "Person"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Large"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+                      "size": "Small",
+                      "style": "Person"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Large"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Comments",
+              "wrap": true
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "wrap": true,
+                      "spacing": "Medium",
+                      "text": "Jon Snow |MTS",
+                      "style": "heading",
+                      "size": "Default"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Solid TCP /IT lets bring him in ASAP",
+                      "wrap": true,
+                      "color": "Light",
+                      "isSubtle": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "wrap": true,
+                      "spacing": "Medium",
+                      "text": "Jon Snow |MTS",
+                      "style": "heading",
+                      "size": "Default"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Solid TCP /IT lets bring him in ASAP",
+                      "wrap": true,
+                      "color": "Light",
+                      "isSubtle": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "wrap": true,
+                      "spacing": "Medium",
+                      "text": "Jon Snow |MTS",
+                      "style": "heading",
+                      "size": "Default"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Solid TCP /IT lets bring him in ASAP",
+                      "wrap": true,
+                      "color": "Light",
+                      "isSubtle": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "wrap": true,
+                      "spacing": "Medium",
+                      "text": "Jon Snow |MTS",
+                      "style": "heading",
+                      "size": "Default"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Solid TCP /IT lets bring him in ASAP",
+                      "wrap": true,
+                      "color": "Light",
+                      "isSubtle": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "wrap": true,
+              "text": "Verdict",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Yes",
+                      "wrap": true,
+                      "horizontalAlignment": "Center",
+                      "color": "Accent"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "Large"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Yes",
+                      "wrap": true,
+                      "horizontalAlignment": "Center",
+                      "color": "Accent"
+                    }
+                  ],
+                  "spacing": "ExtraLarge"
+                }
+              ],
+              "spacing": "ExtraLarge"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Yes",
+                      "wrap": true,
+                      "horizontalAlignment": "Center",
+                      "color": "Accent"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "ExtraLarge"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Yes",
+                      "wrap": true,
+                      "horizontalAlignment": "Center",
+                      "color": "Accent"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "ExtraLarge"
+            }
+          ],
+          "verticalContentAlignment": "Top"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Create Offer"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Not a Fit"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

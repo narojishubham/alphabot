@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "HR Bot",
+              "wrap": true,
+              "style": "heading",
+              "size": "Medium"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "Input.Time"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Updated",
+              "wrap": true
+            }
+          ],
+          "backgroundImage": {
+            "verticalAlignment": "Center"
+          },
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Provision Equipment",
+      "wrap": true,
+      "separator": true,
+      "spacing": "Medium",
+      "style": "heading",
+      "size": "Large"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Select the quipnment that you like to provision David Martinez",
+              "wrap": true
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Dell inspiron Laptop 14 inch"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Office Key"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Samsung galaxy S20"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Apple Mackbook pro 13 inch"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "LG 22 inch widescreen Monitor"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Dell 24 inch UltraSharp Monitor"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Apple iPhone 12"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSox-_lyQyhGSn5GX-5BA5MI8gig9D0iAK2aQ&usqp=CAU",
+              "size": "Medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Submit"
+        }
+      ]
+    }
+  ]
+}

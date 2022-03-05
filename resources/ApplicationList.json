@@ -1,0 +1,478 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "App Provisioned",
+              "wrap": true,
+              "style": "heading",
+              "size": "ExtraLarge"
+            },
+            {
+              "type": "TextBlock",
+              "wrap": true,
+              "text": "The following default application have been provisioned for David Martinez",
+              "isSubtle": false,
+              "size": "Medium",
+              "spacing": "None"
+            }
+          ]
+        }
+      ],
+      "style": "default"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Workday",
+                      "wrap": true,
+                      "style": "heading",
+                      "spacing": "None"
+                    }
+                  ],
+                  "spacing": "None"
+                }
+              ],
+              "spacing": "ExtraLarge"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Employee ID:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium",
+                      "spacing": "None"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "1234568",
+                      "wrap": true,
+                      "spacing": "None"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://i.pinimg.com/474x/01/88/dc/0188dc41881e0e410b5375cdead5f49a.jpg",
+              "size": "Medium"
+            }
+          ]
+        }
+      ],
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Service Now",
+              "wrap": true,
+              "style": "heading"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Name:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "David Martinez",
+                      "wrap": true
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Position:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Senior MTS | Developer",
+                      "wrap": true
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ],
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK1LaBaummJfuW6GIM_kt3R9egIlpqVpEKw&usqp=CAU",
+              "size": "Medium"
+            }
+          ]
+        }
+      ],
+      "separator": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Office 365",
+              "wrap": true,
+              "style": "heading"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Email:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "davidmartinez@gmail.com",
+                      "wrap": true
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "License:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Business",
+                      "wrap": true
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ],
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "size": "Medium",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK1LaBaummJfuW6GIM_kt3R9egIlpqVpEKw&usqp=CAU"
+            }
+          ]
+        }
+      ],
+      "separator": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Jira",
+              "wrap": true,
+              "style": "heading"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Jira Account ID:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "123458",
+                      "wrap": true
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "size": "Medium",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK1LaBaummJfuW6GIM_kt3R9egIlpqVpEKw&usqp=CAU"
+            }
+          ]
+        }
+      ],
+      "separator": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Zoom",
+              "wrap": true,
+              "style": "heading"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "license:",
+                      "wrap": true,
+                      "style": "heading",
+                      "size": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "David Martinez",
+                      "wrap": true
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK1LaBaummJfuW6GIM_kt3R9egIlpqVpEKw&usqp=CAU",
+              "size": "Medium"
+            }
+          ]
+        }
+      ],
+      "separator": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "If required , select additional application that you wish to provision for David Martinez. Otherwise, you may proceed to provision equipment."
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.ShowCard",
+          "title": "Additional Application",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "TextBlock",
+                "wrap": true,
+                "text": "Select additional applications that you'd like to provision for David Martinez",
+                "spacing": "Large"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Additional Applications",
+                "wrap": true,
+                "spacing": "Medium",
+                "style": "heading",
+                "size": "Medium"
+              },
+              {
+                "type": "Input.Toggle",
+                "title": "Saleforce"
+              },
+              {
+                "type": "Input.Toggle",
+                "title": "Github"
+              },
+              {
+                "type": "Input.Toggle",
+                "title": "Warkato"
+              },
+              {
+                "type": "Input.Toggle",
+                "title": "Marketo"
+              },
+              {
+                "type": "ActionSet",
+                "actions": [
+                  {
+                    "type": "Action.Submit",
+                    "title": "Submit"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Next"
+        }
+      ]
+    }
+  ]
+}
