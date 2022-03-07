@@ -1,0 +1,94 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "HR Bot",
+              "wrap": true,
+              "size": "Medium",
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "12:30 Pm",
+              "wrap": true
+            }
+          ],
+          "backgroundImage": {
+            "verticalAlignment": "Bottom"
+          },
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "David Martinez has signed offer letter!",
+      "wrap": true,
+      "spacing": "Medium",
+      "size": "Large",
+      "weight": "Bolder",
+      "separator": true,
+      "color": "Accent"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSox-_lyQyhGSn5GX-5BA5MI8gig9D0iAK2aQ&usqp=CAU",
+              "size": "Medium",
+              "width": "70px"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Do you want to get started with onboarding?",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Onboard"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "spacing": "Medium"
+    }
+  ]
+}
