@@ -1,0 +1,121 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "HR Bot",
+              "wrap": true,
+              "size": "Medium",
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "12:30 Pm",
+              "wrap": true
+            }
+          ],
+          "backgroundImage": {
+            "verticalAlignment": "Bottom"
+          },
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Create Offer",
+      "wrap": true,
+      "spacing": "Medium",
+      "size": "Large",
+      "weight": "Bolder",
+      "separator": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Select the equipment that you'd like to provision for David ",
+              "wrap": true
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Dell Inspiron Laptop 14 inch"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Samsung Galaxy S20"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Office Key"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Apple mackbook pro 13 inch"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "LG 22 inch web screen monitor"
+            },
+            {
+              "type": "Input.Toggle",
+              "title": "Apple iphone 12"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "data:image/png;base64,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",
+              "width": "100px"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "100px",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "spacing": "Medium"
+    }
+  ]
+}

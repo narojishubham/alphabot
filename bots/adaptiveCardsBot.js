@@ -4,31 +4,33 @@
 const { ActivityHandler, CardFactory } = require("botbuilder");
 
 // Import AdaptiveCard content.
-// const FlightItineraryCard = require("../resources/FlightItineraryCard.json");
-// const ImageGalleryCard = require("../resources/ImageGalleryCard.json");
-// const LargeWeatherCard = require("../resources/LargeWeatherCard.json");
-// const RestaurantCard = require("../resources/RestaurantCard.json");
-// const SolitaireCard = require("../resources/SolitaireCard.json");
+const FlightItineraryCard = require("../resources/FlightItineraryCard.json");
+const ImageGalleryCard = require("../resources/ImageGalleryCard.json");
+const LargeWeatherCard = require("../resources/LargeWeatherCard.json");
+const RestaurantCard = require("../resources/RestaurantCard.json");
+const SolitaireCard = require("../resources/SolitaireCard.json");
 
 // New  cards
-// const CandidateListCard = require("../resources/CandidateListCard.json");
+const CandidateListCard = require("../resources/CandidateListCard.json");
 const OfferForm = require("../resources/OfferForm.json");
 const ApplicationList = require("../resources/ApplicationList.json");
 const ProvisionEquipment = require("../resources/ProvisionEquipment.json");
+const FirstCandidateListCard = require("../resources/FirstCandidateListCard.json");
 
 // Create array of AdaptiveCard content, this will be used to send a random card to the user.
 const CARDS = [
   // FlightItineraryCard,
-  // ImageGalleryCard,
-  // LargeWeatherCard,
-  // RestaurantCard,
-  // SolitaireCard,
+  //   ImageGalleryCard,
+  LargeWeatherCard,
+  //   RestaurantCard,
+  //   SolitaireCard,
 
   //// New created cards
   // CandidateListCard,
   // OfferForm,
-  ApplicationList,
-  ProvisionEquipment,
+  // ApplicationList,
+  // ProvisionEquipment,
+  // FirstCandidateListCard
 ];
 
 const WELCOME_TEXT =
