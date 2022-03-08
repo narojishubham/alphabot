@@ -11,10 +11,7 @@ const RestaurantCard = require("../resources/RestaurantCard.json");
 const SolitaireCard = require("../resources/SolitaireCard.json");
 
 // New  cards
-const CandidateListCard = require("../resources/CandidateListCard.json");
-const OfferForm = require("../resources/OfferForm.json");
-const ApplicationList = require("../resources/ApplicationList.json");
-const ProvisionEquipment = require("../resources/ProvisionEquipment.json");
+
 const FirstCandidateListCard = require("../resources/FirstCandidateListCard.json");
 const SecondCreateOfferCard = require("../resources/SecondCreateOfferCard.json");
 const ThirdOnboardingCard = require("../resources/ThirdOnboardingCard.json");
@@ -68,11 +65,45 @@ class AdaptiveCardsBot extends ActivityHandler {
       //   text: "Here is an Adaptive Card:",
       //   attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
       // });
-      if (context.activity.text === "test") {
+      if (context.activity.text === "1") {
         await context.sendActivity({
-          text: "Here is an Adaptive Card:",
-          // attachments: [CardFactory.adaptiveCard(CARDS[context.activity.text])],
+          text: "Here is the list of candidaye",
           attachments: [CardFactory.adaptiveCard(CARDS[0])],
+        });
+      } else if (context.activity.text === "2") {
+        await context.sendActivity({
+          text: "Fill in the details",
+          attachments: [CardFactory.adaptiveCard(CARDS[1])],
+        });
+      } else if (context.activity.text === "3") {
+        await context.sendActivity({
+          text: "David signed the offer",
+          attachments: [CardFactory.adaptiveCard(CARDS[2])],
+        });
+      } else if (context.activity.text === "4") {
+        await context.sendActivity({
+          text: "David signed the offer",
+          attachments: [CardFactory.adaptiveCard(CARDS[3])],
+        });
+      } else if (context.activity.text === "5") {
+        await context.sendActivity({
+          // text: "David signed the offer",
+          attachments: [CardFactory.adaptiveCard(CARDS[4])],
+        });
+      } else if (context.activity.text === "6") {
+        await context.sendActivity({
+          text: "Select the vrovision equipment",
+          attachments: [CardFactory.adaptiveCard(CARDS[5])],
+        });
+      } else if (context.activity.text === "7") {
+        await context.sendActivity({
+          text: "One last step",
+          attachments: [CardFactory.adaptiveCard(CARDS[6])],
+        });
+      } else if (context.activity.text === "8") {
+        await context.sendActivity({
+          text: "Fill the Form",
+          attachments: [CardFactory.adaptiveCard(CARDS[7])],
         });
       }
 
