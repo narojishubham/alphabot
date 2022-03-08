@@ -59,27 +59,33 @@
             },
             {
               "type": "Input.Toggle",
-              "title": "Dell Inspiron Laptop 14 inch"
+              "title": "Dell Inspiron Laptop 14 inch",
+              "id": "11a11a"
             },
             {
               "type": "Input.Toggle",
-              "title": "Samsung Galaxy S20"
+              "title": "Samsung Galaxy S20",
+              "id": "11b11b"
             },
             {
               "type": "Input.Toggle",
-              "title": "Office Key"
+              "title": "Office Key",
+              "id": "11c11c"
             },
             {
               "type": "Input.Toggle",
-              "title": "Apple mackbook pro 13 inch"
+              "title": "Apple mackbook pro 13 inch",
+              "id": "11d11d"
             },
             {
               "type": "Input.Toggle",
-              "title": "LG 22 inch web screen monitor"
+              "title": "LG 22 inch web screen monitor",
+              "id": "11e11e"
             },
             {
               "type": "Input.Toggle",
-              "title": "Apple iphone 12"
+              "title": "Apple iphone 12",
+              "id": "11f11f"
             }
           ]
         },

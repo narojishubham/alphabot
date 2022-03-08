@@ -1,0 +1,150 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://www.airslate.com/preview/explorebots/development/workato.svg",
+              "size": "Small",
+              "width": "50px"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "HR Bot",
+              "wrap": true,
+              "weight": "Bolder",
+              "size": "Medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Let's Welcome David!",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please fill all the fields in the form",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Arrival time",
+      "wrap": true,
+      "spacing": "Medium",
+      "size": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "Input.Text",
+      "id": "123a"
+    },
+    {
+      "type": "TextBlock",
+      "text": "10:00AM",
+      "wrap": true,
+      "isSubtle": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Office manager",
+      "wrap": true,
+      "size": "Medium",
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Input.Text",
+      "id": "123b"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Arrival day",
+      "wrap": true,
+      "spacing": "Medium",
+      "size": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "Input.Date",
+      "id": "123c"
+    },
+    {
+      "type": "TextBlock",
+      "text": "dd/mm/yyyy",
+      "wrap": true,
+      "isSubtle": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Comments",
+      "wrap": true,
+      "size": "Medium",
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Input.Text",
+      "id": "123d"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Comments will appear after P,S. ",
+      "wrap": true,
+      "isSubtle": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "90px",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Cancel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "90px",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "horizontalAlignment": "Right"
+    }
+  ]
+}

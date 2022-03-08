@@ -286,7 +286,8 @@
           "value": "Choice 3"
         }
       ],
-      "placeholder": "Select salary"
+      "placeholder": "Select salary",
+      "id": "1111"
     },
     {
       "type": "TextBlock",
@@ -319,7 +320,8 @@
           "value": "s7000"
         }
       ],
-      "placeholder": "Select stock"
+      "placeholder": "Select stock",
+      "id": "1212121"
     },
     {
       "type": "TextBlock",
@@ -337,7 +339,8 @@
       "spacing": "Medium"
     },
     {
-      "type": "Input.Date"
+      "type": "Input.Date",
+      "id": "123123123"
     },
     {
       "type": "TextBlock",
@@ -355,7 +358,8 @@
     {
       "type": "Input.Text",
       "placeholder": "Welcome!",
-      "isMultiline": true
+      "isMultiline": true,
+      "id": "13131313"
     },
     {
       "type": "TextBlock",

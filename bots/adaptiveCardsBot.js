@@ -16,21 +16,29 @@ const OfferForm = require("../resources/OfferForm.json");
 const ApplicationList = require("../resources/ApplicationList.json");
 const ProvisionEquipment = require("../resources/ProvisionEquipment.json");
 const FirstCandidateListCard = require("../resources/FirstCandidateListCard.json");
+const SecondCreateOfferCard = require("../resources/SecondCreateOfferCard.json");
+const ThirdOnboardingCard = require("../resources/ThirdOnboardingCard.json");
+const ForthAppProvisionedCard = require("../resources/ForthAppProvisionedCard.json");
+const FifthProvisionCard = require("../resources/FifthProvisionCard.json");
+const SixthCardSendEmail = require("../resources/SixthCardSendEmail.json");
+const SeventhInputCard = require("../resources/SeventhInputCard.json");
 
 // Create array of AdaptiveCard content, this will be used to send a random card to the user.
 const CARDS = [
   // FlightItineraryCard,
-  //   ImageGalleryCard,
-  LargeWeatherCard,
+  // ImageGalleryCard,
+  // LargeWeatherCard,
   //   RestaurantCard,
   //   SolitaireCard,
 
-  //// New created cards
-  // CandidateListCard,
-  // OfferForm,
-  // ApplicationList,
-  // ProvisionEquipment,
-  // FirstCandidateListCard
+  // New created cards
+  FirstCandidateListCard,
+  SecondCreateOfferCard,
+  ThirdOnboardingCard,
+  ForthAppProvisionedCard,
+  FifthProvisionCard,
+  SixthCardSendEmail,
+  SeventhInputCard,
 ];
 
 const WELCOME_TEXT =
@@ -54,12 +62,19 @@ class AdaptiveCardsBot extends ActivityHandler {
     });
 
     this.onMessage(async (context, next) => {
-      const randomlySelectedCard =
-        CARDS[Math.floor(Math.random() * CARDS.length - 1 + 1)];
-      await context.sendActivity({
-        text: "Here is an Adaptive Card:",
-        attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
-      });
+      // const randomlySelectedCard =
+      //   CARDS[Math.floor(Math.random() * CARDS.length - 1 + 1)];
+      // await context.sendActivity({
+      //   text: "Here is an Adaptive Card:",
+      //   attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
+      // });
+      if (context.activity.text === "test") {
+        await context.sendActivity({
+          text: "Here is an Adaptive Card:",
+          // attachments: [CardFactory.adaptiveCard(CARDS[context.activity.text])],
+          attachments: [CardFactory.adaptiveCard(CARDS[0])],
+        });
+      }
 
       // By calling next() you ensure that the next BotHandler is run.
       await next();

@@ -446,19 +446,23 @@
                       },
                       {
                         "type": "Input.Toggle",
-                        "title": "Saleforce"
+                        "title": "Saleforce",
+                        "id": "1a1a1a"
                       },
                       {
                         "type": "Input.Toggle",
-                        "title": "Marketo"
+                        "title": "Marketo",
+                        "id": "1b1b1b"
                       },
                       {
                         "type": "Input.Toggle",
-                        "title": "Github"
+                        "title": "Github",
+                        "id": "1c1c1c"
                       },
                       {
                         "type": "Input.Toggle",
-                        "title": "Workato"
+                        "title": "Workato",
+                        "id": "1d1d1d"
                       },
                       {
                         "type": "ColumnSet",
