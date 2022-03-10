@@ -77,7 +77,8 @@
       "actions": [
         {
           "type": "Action.Submit",
-          "title": "Let's welcome David"
+          "title": "Let's welcome David",
+          "data":"Send emal"
         }
       ]
     }

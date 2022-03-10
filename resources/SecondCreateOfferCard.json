@@ -241,7 +241,15 @@
             },
             {
               "type": "Column",
-              "width": "stretch"
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.feedough.com/wp-content/uploads/2016/09/brand-image.png",
+                  "horizontalAlignment": "Right",
+                  "width": "140px"
+                }
+              ]
             }
           ]
         }
@@ -380,7 +388,8 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Confirm"
+                  "title": "Confirm",
+                  "data": "Confirm"
                 }
               ]
             }
@@ -395,7 +404,8 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Cancel Offer"
+                  "title": "Cancel Offer",
+                  "data": "Cancel Offer"
                 }
               ]
             }

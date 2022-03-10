@@ -81,7 +81,8 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Onboard"
+                  "title": "Onboard",
+                  "data": "Onboard"
                 }
               ]
             }

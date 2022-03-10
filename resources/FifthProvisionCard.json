@@ -38,7 +38,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Create Offer",
+      "text": "Provision Equipment",
       "wrap": true,
       "spacing": "Medium",
       "size": "Large",
@@ -114,7 +114,9 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Submit"
+                  "title": "Submit",
+                  "data": "lets welcome David",
+                  "associatedInputs": "none"
                 }
               ]
             }

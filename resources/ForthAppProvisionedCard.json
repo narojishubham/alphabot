@@ -476,7 +476,9 @@
                                 "actions": [
                                   {
                                     "type": "Action.Submit",
-                                    "title": "Submit"
+                                    "title": "Submit",
+                                    "data": "Select the provision equipment",
+                                    "associatedInputs": "none"
                                   }
                                 ]
                               }
@@ -488,6 +490,22 @@
                       }
                     ]
                   }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "90px",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Next",
+                  "data": "Select the provision equipment"
                 }
               ]
             }

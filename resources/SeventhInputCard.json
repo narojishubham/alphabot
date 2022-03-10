@@ -122,7 +122,8 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Cancel"
+                  "title": "Cancel",
+                  "data": "Email is not sent"
                 }
               ]
             }
@@ -137,7 +138,8 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Submit"
+                  "title": "Submit",
+                  "data": "Email sent"
                 }
               ]
             }
