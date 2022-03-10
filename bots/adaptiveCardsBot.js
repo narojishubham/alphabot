@@ -65,45 +65,57 @@ class AdaptiveCardsBot extends ActivityHandler {
       //   text: "Here is an Adaptive Card:",
       //   attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
       // });
+      // console.log("context.activity", context.activity);
       if (context.activity.text === "1") {
         await context.sendActivity({
-          text: "Here is the list of candidaye",
+          text: "Here are the list of candidaye",
           attachments: [CardFactory.adaptiveCard(CARDS[0])],
         });
-      } else if (context.activity.text === "2") {
+      } else if (context.activity.text === "Create Offer") {
         await context.sendActivity({
           text: "Fill in the details",
           attachments: [CardFactory.adaptiveCard(CARDS[1])],
         });
-      } else if (context.activity.text === "3") {
+      } else if (context.activity.text === "Offer Cancelled") {
+        await context.sendActivity({
+          text: " David offer is cancelled",
+          // attachments: [CardFactory.adaptiveCard(CARDS[1])],
+        });
+      } else if (context.activity.text === "Confirm") {
         await context.sendActivity({
           text: "David signed the offer",
           attachments: [CardFactory.adaptiveCard(CARDS[2])],
         });
-      } else if (context.activity.text === "4") {
+      } else if (context.activity.text === "Cancel Offer") {
+        await context.sendActivity({
+          text: " David offer is cancelled",
+        });
+      } else if (context.activity.text === "Onboard") {
         await context.sendActivity({
           text: "David signed the offer",
           attachments: [CardFactory.adaptiveCard(CARDS[3])],
         });
-      } else if (context.activity.text === "5") {
+      } else if (context.activity.text === "Select the provision equipment") {
         await context.sendActivity({
-          // text: "David signed the offer",
           attachments: [CardFactory.adaptiveCard(CARDS[4])],
         });
-      } else if (context.activity.text === "6") {
+        console.log("context.activity", context.activity);
+      } else if (context.activity.text === "lets welcome David") {
         await context.sendActivity({
-          text: "Select the vrovision equipment",
           attachments: [CardFactory.adaptiveCard(CARDS[5])],
         });
-      } else if (context.activity.text === "7") {
+      } else if (context.activity.text === "Send emal") {
         await context.sendActivity({
           text: "One last step",
           attachments: [CardFactory.adaptiveCard(CARDS[6])],
         });
-      } else if (context.activity.text === "8") {
+      } else if (context.activity.text === "Email sent") {
         await context.sendActivity({
-          text: "Fill the Form",
-          attachments: [CardFactory.adaptiveCard(CARDS[7])],
+          text: "Email sent successfully",
+        });
+      } else if (context.activity.text === "Email is not sent") {
+        await context.sendActivity({
+          text: "Email is not sent",
         });
       }
 
