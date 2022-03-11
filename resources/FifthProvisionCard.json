@@ -115,7 +115,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Submit",
-                  "data": "lets welcome David",
+                  "data": "let's welcome David",
                   "associatedInputs": "none"
                 }
               ]
