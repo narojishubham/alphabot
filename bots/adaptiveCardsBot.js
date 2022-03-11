@@ -65,7 +65,7 @@ class AdaptiveCardsBot extends ActivityHandler {
       //   text: "Here is an Adaptive Card:",
       //   attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
       // });
-      // console.log("context.activity", context.activity);
+      console.log("context.activity", context.activity);
       if (context.activity.text === "1") {
         await context.sendActivity({
           text: "Here are the list of candidaye",
