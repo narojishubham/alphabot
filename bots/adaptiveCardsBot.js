@@ -66,7 +66,7 @@ class AdaptiveCardsBot extends ActivityHandler {
       //   attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
       // });
       console.log("context.activity", context.activity);
-      if (context.activity.text === "1") {
+      if (context.activity.text === "Hello") {
         await context.sendActivity({
           text: "Here are the list of candidaye",
           attachments: [CardFactory.adaptiveCard(CARDS[0])],
@@ -118,7 +118,6 @@ class AdaptiveCardsBot extends ActivityHandler {
           text: "Email is not sent",
         });
       }
-
       // By calling next() you ensure that the next BotHandler is run.
       await next();
     });
