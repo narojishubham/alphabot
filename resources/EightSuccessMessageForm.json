@@ -1,0 +1,43 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQH9MRVkm5tGcr1kIKzZbHetqkAhuP3jUZ9_wSFz6cxSBPh3yuheWkCFWRl2AZsQr5CCg&usqp=CAU",
+              "size": "Medium"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Email sent successfully",
+              "wrap": true,
+              "size": "Large",
+              "weight": "Bolder",
+              "color": "Good",
+              "style": "heading"
+            }
+          ],
+          "backgroundImage": {
+            "verticalAlignment": "Center"
+          },
+          "horizontalAlignment": "Left",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    }
+  ]
+}

@@ -78,7 +78,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Onboard",
-                  "data": "Onboard"
+                  "data": { "card": "Onboard" }
                 }
               ]
             }

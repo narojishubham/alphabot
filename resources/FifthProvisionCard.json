@@ -111,7 +111,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Submit",
-                  "data": "let's welcome David",
+                  "data": { "card": "let's welcome David" },
                   "associatedInputs": "none"
                 }
               ]

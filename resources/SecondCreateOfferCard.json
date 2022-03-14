@@ -384,7 +384,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Confirm",
-                  "data": "Confirm"
+                  "data": { "card": "Confirm" }
                 }
               ]
             }
@@ -400,7 +400,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Cancel Offer",
-                  "data": "Cancel Offer"
+                  "data": { "card": "Cancel Offer" }
                 }
               ]
             }

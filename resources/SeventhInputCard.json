@@ -123,7 +123,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Cancel",
-                  "data": "Email is not sent"
+                  "data": { "data": "Email is not sent" }
                 }
               ]
             }
@@ -139,7 +139,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Submit",
-                  "data": "Email sent"
+                  "data": { "card": "Email sent" }
                 }
               ]
             }

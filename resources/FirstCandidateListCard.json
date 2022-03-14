@@ -483,7 +483,7 @@
                 {
                   "type": "Action.Submit",
                   "title": "Create Offer",
-                  "data": "Create Offer"
+                  "data": { "card": "Create Offer" }
                 }
               ]
             }
@@ -499,7 +499,9 @@
                 {
                   "type": "Action.Submit",
                   "title": "Not a Fit",
-                  "data": "Offer Cancelled"
+                  "data": {
+                    "card": "Offer Cancelled"
+                  }
                 }
               ]
             }

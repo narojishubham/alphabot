@@ -473,7 +473,9 @@
                                   {
                                     "type": "Action.Submit",
                                     "title": "Submit",
-                                    "data": "Select the provision equipment",
+                                    "data": {
+                                      "card": "Select the provision equipment"
+                                    },
                                     "associatedInputs": "none"
                                   }
                                 ]
@@ -500,7 +502,9 @@
                 {
                   "type": "Action.Submit",
                   "title": "Next",
-                  "data": "Select the provision equipment"
+                  "data": {
+                    "card": "Select the provision equipment"
+                  }
                 }
               ]
             }
