@@ -97,12 +97,13 @@ class AdaptiveCardsBot extends ActivityHandler {
             break;
           case "Onboard":
             await context.sendActivity({
-              text: "David signed the offer",
+              // text: "David signed the offer",
               attachments: [CardFactory.adaptiveCard(CARDS[3])],
             });
             break;
           case "Select the provision equipment":
             await context.sendActivity({
+              text: "Select the provision equipmentr",
               attachments: [CardFactory.adaptiveCard(CARDS[4])],
             });
             break;
