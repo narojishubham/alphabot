@@ -133,7 +133,7 @@ class AdaptiveCardsBot extends ActivityHandler {
       }
       if (context.activity.text === "Hello") {
         await context.sendActivity({
-          text: "Here are the list of candidaye",
+          text: "Here are the list of candidate",
           attachments: [CardFactory.adaptiveCard(CARDS[0])],
         });
       }
