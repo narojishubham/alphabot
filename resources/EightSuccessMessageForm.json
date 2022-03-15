@@ -27,13 +27,9 @@
               "wrap": true,
               "size": "Large",
               "weight": "Bolder",
-              "color": "Good",
-              "style": "heading"
+              "color": "Good"
             }
           ],
-          "backgroundImage": {
-            "verticalAlignment": "Center"
-          },
           "horizontalAlignment": "Left",
           "verticalContentAlignment": "Center"
         }
