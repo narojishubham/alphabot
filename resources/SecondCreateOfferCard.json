@@ -67,7 +67,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Position:  ",
+                          "text": "🛖Position:",
                           "wrap": true,
                           "weight": "Bolder"
                         }
@@ -79,7 +79,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Senior Engineer",
+                          "text": "Registered Nurse",
                           "wrap": true,
                           "isSubtle": true
                         }
@@ -108,7 +108,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Developer",
+                          "text": "Head nurse",
                           "wrap": true,
                           "isSubtle": true
                         }
@@ -125,7 +125,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Location:  ",
+                          "text": "🌍Location:  ",
                           "wrap": true,
                           "weight": "Bolder"
                         }
@@ -154,7 +154,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Level:  ",
+                          "text": "🎚️Level:  ",
                           "wrap": true,
                           "weight": "Bolder"
                         }
@@ -183,7 +183,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Level Salary:",
+                          "text": "💰Level Salary:",
                           "wrap": true,
                           "weight": "Bolder"
                         }
@@ -202,45 +202,16 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "ColumnSet",
-                  "columns": [
-                    {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Stock Options:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "5000 - 7000",
-                          "wrap": true,
-                          "isSubtle": true
-                        }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "auto",
+              "width": "60px",
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://www.feedough.com/wp-content/uploads/2016/09/brand-image.png",
+                  "url": "https://images-platform.99static.com/KknfMBPsAVxDjtycCk_PLnUOCes=/0x0:1367x1367/500x500/top/smart/99designs-contests-attachments/103/103663/attachment_103663707",
                   "horizontalAlignment": "Right",
                   "width": "140px"
                 }
@@ -252,7 +223,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Offer Form",
+      "text": "⬇️Offer Form",
       "wrap": true,
       "size": "Medium",
       "weight": "Bolder",
@@ -260,7 +231,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Fill out the offer based on the above compensation guide.",
+      "text": "✏️Fill out the offer based on the above compensation guide.",
       "wrap": true,
       "isSubtle": true,
       "spacing": "Medium"
@@ -298,40 +269,6 @@
       "wrap": true,
       "isSubtle": true,
       "spacing": "Small"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Stock Options",
-      "wrap": true,
-      "spacing": "Medium",
-      "size": "Medium",
-      "weight": "Bolder"
-    },
-    {
-      "type": "Input.ChoiceSet",
-      "choices": [
-        {
-          "title": "5000",
-          "value": "s5000"
-        },
-        {
-          "title": "6000",
-          "value": "s6000"
-        },
-        {
-          "title": "7000",
-          "value": "s7000"
-        }
-      ],
-      "placeholder": "Select stock",
-      "id": "1212121"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Stock option to receive (5000-7000)",
-      "wrap": true,
-      "spacing": "Small",
-      "isSubtle": true
     },
     {
       "type": "TextBlock",
@@ -383,8 +320,10 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Confirm",
-                  "data": { "card": "Confirm" }
+                  "title": "✅Confirm",
+                  "data": {
+                    "card": "Confirm"
+                  }
                 }
               ]
             }
@@ -399,8 +338,10 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "Cancel Offer",
-                  "data": { "card": "Cancel Offer" }
+                  "title": "❌Cancel Offer",
+                  "data": {
+                    "card": "Cancel Offer"
+                  }
                 }
               ]
             }

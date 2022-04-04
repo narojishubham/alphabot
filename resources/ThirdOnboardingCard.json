@@ -34,7 +34,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "David Martinez has signed offer letter!",
+      "text": "Sarah Smith has signed offer letter!",
       "wrap": true,
       "spacing": "Medium",
       "size": "Large",
@@ -52,21 +52,21 @@
             {
               "type": "Image",
               "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSox-_lyQyhGSn5GX-5BA5MI8gig9D0iAK2aQ&usqp=CAU",
-              "size": "Medium",
-              "width": "70px"
+              "width": "60px",
+              "size": "Small"
             }
           ]
         },
         {
           "type": "Column",
-          "width": "stretch",
           "items": [
             {
               "type": "TextBlock",
               "text": "Do you want to get started with onboarding?",
               "wrap": true
             }
-          ]
+          ],
+          "width": "210px"
         },
         {
           "type": "Column",
@@ -78,7 +78,9 @@
                 {
                   "type": "Action.Submit",
                   "title": "Onboard",
-                  "data": { "card": "Onboard" }
+                  "data": {
+                    "card": "Onboard"
+                  }
                 }
               ]
             }

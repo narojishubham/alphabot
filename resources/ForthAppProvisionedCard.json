@@ -34,7 +34,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "App provisioned",
+      "text": "App provisioned⬇️",
       "wrap": true,
       "spacing": "Medium",
       "size": "Large",
@@ -56,7 +56,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Workday ",
+              "text": "1️⃣Workday ",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -87,7 +87,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "spacing": "Small"
             }
           ]
         },
@@ -116,7 +117,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Service Now",
+              "text": "2️⃣Service Now",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -147,7 +148,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "spacing": "Small"
             },
             {
               "type": "ColumnSet",
@@ -205,7 +207,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Office 365",
+              "text": "3️⃣Office 365",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -236,7 +238,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "spacing": "Small"
             },
             {
               "type": "ColumnSet",
@@ -294,7 +297,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Jira",
+              "text": "4️⃣Jira",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -325,7 +328,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "spacing": "Small"
             }
           ]
         },
@@ -354,7 +358,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "License",
+              "text": "5️⃣License",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -385,7 +389,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "spacing": "Small"
             }
           ]
         },
@@ -424,7 +429,7 @@
               "actions": [
                 {
                   "type": "Action.ShowCard",
-                  "title": "Additional Application",
+                  "title": "✅Additional Application",
                   "card": {
                     "type": "AdaptiveCard",
                     "body": [
