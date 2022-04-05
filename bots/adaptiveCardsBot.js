@@ -131,7 +131,10 @@ class AdaptiveCardsBot extends ActivityHandler {
             break;
         }
       }
-      if (context.activity.text.trim().toLowerCase() === "show candidates") {
+      if (
+        context.activity.text &&
+        context.activity.text.trim().toLowerCase() === "show candidates"
+      ) {
         await context.sendActivity({
           text: "Here are the list of candidate",
           attachments: [CardFactory.adaptiveCard(CARDS[0])],
