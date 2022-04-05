@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -51,7 +51,7 @@
           "items": [
             {
               "type": "Image",
-              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSox-_lyQyhGSn5GX-5BA5MI8gig9D0iAK2aQ&usqp=CAU",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_ZhelFJ6aNO8mK80AoPXrBRA1cM_4N6jOIde2MpC6xYjvZ-fj34BQPC6nmMULUw1mCg&usqp=CAU",
               "width": "60px",
               "size": "Small"
             }

@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -380,13 +380,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Jane Nelson | Scrum Master ",
+                  "text": "Sarah Smith ",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Great fit solid technical background",
+                  "text": "Registered nurse",
                   "wrap": true,
                   "isSubtle": true
                 }
@@ -432,13 +432,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "John Wick | Renegade",
+                  "text": "Sarah Smith ",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Excellent verbal communication and great attitude",
+                  "text": "Registered nurse",
                   "wrap": true,
                   "isSubtle": true
                 }

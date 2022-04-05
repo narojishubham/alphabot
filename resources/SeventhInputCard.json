@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -31,7 +31,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Let's Welcome David!",
+              "text": "Let's Welcome Sarah Smith!",
               "wrap": true
             }
           ]
@@ -123,7 +123,9 @@
                 {
                   "type": "Action.Submit",
                   "title": "Cancel",
-                  "data": { "data": "Email is not sent" }
+                  "data": {
+                    "data": "Email is not sent"
+                  }
                 }
               ]
             }
@@ -139,7 +141,9 @@
                 {
                   "type": "Action.Submit",
                   "title": "Submit",
-                  "data": { "card": "Email sent" }
+                  "data": {
+                    "card": "Email sent"
+                  }
                 }
               ]
             }

@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -43,7 +43,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "The following default application have been provisioned for David Martinez",
+      "text": "The following default application have been provisioned for Sarah Smith",
       "wrap": true,
       "isSubtle": true
     },
@@ -143,7 +143,7 @@
                   "items": [
                     {
                       "type": "TextBlock",
-                      "text": "David Martinez",
+                      "text": "Sarah Smith",
                       "wrap": true
                     }
                   ]
@@ -172,8 +172,8 @@
                   "items": [
                     {
                       "type": "TextBlock",
-                      "text": "Senior MTS | Developer",
-                      "wrap": true
+                      "wrap": true,
+                      "text": "Registered nurse"
                     }
                   ]
                 }
@@ -234,7 +234,7 @@
                     {
                       "type": "TextBlock",
                       "wrap": true,
-                      "text": "david.martinez@test.com"
+                      "text": "sarah.smith@test.com"
                     }
                   ]
                 }
@@ -413,7 +413,7 @@
     {
       "type": "TextBlock",
       "wrap": true,
-      "text": "If require select additional application that you wish to provision for David otherwise you may proceed to provision equipment.",
+      "text": "If require select additional application that you wish to provision for Sarah otherwise you may proceed to provision equipment.",
       "spacing": "Medium",
       "separator": true
     },

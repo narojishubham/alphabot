@@ -1,7 +1,7 @@
 {
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -62,7 +62,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Let's Create David's Welcome email!",
+      "text": "Let's Create Sarah's Welcome email!",
       "wrap": true
     },
     {
@@ -70,7 +70,7 @@
       "actions": [
         {
           "type": "Action.Submit",
-          "title": "Let's welcome David",
+          "title": "Let's welcome Sarah Smith",
           "data": {
             "card": "Send emal"
           }
