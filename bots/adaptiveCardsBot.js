@@ -80,19 +80,19 @@ class AdaptiveCardsBot extends ActivityHandler {
             break;
           case "Offer Cancelled":
             await context.sendActivity({
-              text: " David's offer is cancelled",
+              text: " Sarah's offer is cancelled",
               // attachments: [CardFactory.adaptiveCard(CARDS[1])],
             });
             break;
           case "Confirm":
             await context.sendActivity({
-              text: "David signed the offer",
+              text: "Sarah signed the offer",
               attachments: [CardFactory.adaptiveCard(CARDS[2])],
             });
             break;
           case "Cancel Offer":
             await context.sendActivity({
-              text: " David offer is cancelled",
+              text: " Sarah offer is cancelled",
             });
             break;
           case "Onboard":
@@ -107,7 +107,7 @@ class AdaptiveCardsBot extends ActivityHandler {
               attachments: [CardFactory.adaptiveCard(CARDS[4])],
             });
             break;
-          case "let's welcome David":
+          case "let's welcome Sarah":
             await context.sendActivity({
               attachments: [CardFactory.adaptiveCard(CARDS[5])],
             });

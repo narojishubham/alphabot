@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
+  "version": "1.3",
   "body": [
     {
       "type": "ColumnSet",
@@ -54,7 +54,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Relevant people have been added to this  channel to review hire for David Martinez",
+      "text": "Relevant people have been added to this  channel to review hire for Sarah Smith",
       "wrap": true,
       "isSubtle": true,
       "spacing": "Medium"
