@@ -7,7 +7,6 @@
             "type": "TextBlock",
             "text": "Offer Confirmed!✅",
             "wrap": true,
-            "style": "heading",
             "fontType": "Default",
             "size": "Large"
         },
