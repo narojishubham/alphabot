@@ -1,0 +1,46 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Offer Confirmed!:white_check_mark:",
+            "wrap": true,
+            "style": "heading",
+            "fontType": "Default",
+            "size": "Large"
+        },
+        {
+            "type": "Container",
+            "separator": true,
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "🔎Please review the following details",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "💰Salary: ${salary}",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "🌍Location: ${location}"
+        },
+        {
+            "type": "TextBlock",
+            "text": "📅 Start date: ${startDate}",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "💬 Comments: ${comments}",
+            "wrap": true
+        }
+    ]
+}
