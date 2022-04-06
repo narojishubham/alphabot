@@ -28,7 +28,8 @@
               "text": "Yesteray",
               "wrap": true
             }
-          ]
+          ],
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
@@ -39,9 +40,11 @@
               "text": "1: 00pm",
               "wrap": true
             }
-          ]
+          ],
+          "verticalContentAlignment": "Center"
         }
-      ]
+      ],
+      "horizontalAlignment": "Left"
     },
     {
       "type": "TextBlock",
@@ -73,7 +76,7 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "text": "Candidate Details",
-                  "size": "Medium",
+                  "size": "Large",
                   "weight": "Bolder"
                 },
                 {
@@ -184,14 +187,14 @@
               "width": "stretch",
               "items": [
                 {
-                  "type": "ActionSet",
-                  "actions": [
-                    {
-                      "type": "Action.OpenUrl",
-                      "title": "View my Profile On LinkedIn",
-                      "url": "https://www.linkedin.com/in/ollycogan/"
-                    }
-                  ]
+                  "type": "Image",
+                  "url": "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/ImageStore/Button%202.jpg",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://www.linkedin.com/in/ollycogan/",
+                    "title": "Linked in"
+                  },
+                  "horizontalAlignment": "Center"
                 }
               ]
             }
@@ -205,7 +208,7 @@
       "text": "Interview Feedback",
       "wrap": true,
       "weight": "Bolder",
-      "size": "Medium"
+      "size": "Large"
     },
     {
       "type": "Container",
@@ -266,60 +269,6 @@
                   "size": "Small"
                 }
               ],
-              "horizontalAlignment": "Center",
-              "style": "default"
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Sarah Smith",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "Registered nurse",
-                  "wrap": true,
-                  "isSubtle": true
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "60px",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Yes     ",
-                  "wrap": true,
-                  "spacing": "None",
-                  "horizontalAlignment": "Center",
-                  "color": "Accent"
-                }
-              ],
-              "horizontalAlignment": "Center",
-              "style": "default"
-            }
-          ],
-          "style": "default"
-        },
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "50px",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_ZhelFJ6aNO8mK80AoPXrBRA1cM_4N6jOIde2MpC6xYjvZ-fj34BQPC6nmMULUw1mCg&usqp=CAU",
-                  "style": "Person",
-                  "size": "Small"
-                }
-              ],
               "horizontalAlignment": "Center"
             },
             {
@@ -350,11 +299,11 @@
                   "wrap": true,
                   "spacing": "None",
                   "horizontalAlignment": "Center",
-                  "color": "Accent"
+                  "color": "Good"
                 }
               ],
               "horizontalAlignment": "Center",
-              "style": "default"
+              "style": "emphasis"
             }
           ]
         },
@@ -402,11 +351,11 @@
                   "wrap": true,
                   "spacing": "None",
                   "horizontalAlignment": "Center",
-                  "color": "Accent"
+                  "color": "Good"
                 }
               ],
               "horizontalAlignment": "Center",
-              "style": "default"
+              "style": "emphasis"
             }
           ]
         },
@@ -454,15 +403,16 @@
                   "wrap": true,
                   "spacing": "None",
                   "horizontalAlignment": "Center",
-                  "color": "Accent"
+                  "color": "Good"
                 }
               ],
               "horizontalAlignment": "Center",
-              "style": "default"
+              "style": "emphasis"
             }
           ]
         }
-      ]
+      ],
+      "style": "emphasis"
     },
     {
       "type": "ColumnSet",
