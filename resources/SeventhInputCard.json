@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
+  "version": "1.2",
   "body": [
     {
       "type": "ColumnSet",
@@ -46,7 +46,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Arrival time",
+      "text": "Arrival Time",
       "wrap": true,
       "spacing": "Medium",
       "size": "Medium",
@@ -54,17 +54,12 @@
     },
     {
       "type": "Input.Text",
-      "id": "123a"
+      "id": "123a",
+      "placeholder": "10:00AM"
     },
     {
       "type": "TextBlock",
-      "text": "10:00AM",
-      "wrap": true,
-      "isSubtle": true
-    },
-    {
-      "type": "TextBlock",
-      "text": "Office manager",
+      "text": "Office Manager",
       "wrap": true,
       "size": "Medium",
       "weight": "Bolder",
@@ -76,7 +71,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Arrival day",
+      "text": "Arrival Day",
       "wrap": true,
       "spacing": "Medium",
       "size": "Medium",
@@ -85,12 +80,6 @@
     {
       "type": "Input.Date",
       "id": "123c"
-    },
-    {
-      "type": "TextBlock",
-      "text": "dd/mm/yyyy",
-      "wrap": true,
-      "isSubtle": true
     },
     {
       "type": "TextBlock",
@@ -103,12 +92,6 @@
     {
       "type": "Input.Text",
       "id": "123d"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Comments will appear after P,S. ",
-      "wrap": true,
-      "isSubtle": true
     },
     {
       "type": "ColumnSet",

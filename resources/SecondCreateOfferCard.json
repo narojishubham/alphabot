@@ -109,7 +109,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Head nurse",
+                          "text": "Head Nurse",
                           "wrap": true,
                           "isSubtle": true
                         }

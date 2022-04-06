@@ -129,7 +129,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "Registered nurse",
+                          "text": "Registered Nurse",
                           "wrap": true
                         }
                       ],
@@ -208,7 +208,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Interview Feedback",
+      "text": "Interview Feedback⬇️",
       "wrap": true,
       "weight": "Bolder",
       "size": "Large"
@@ -221,7 +221,7 @@
           "columns": [
             {
               "type": "Column",
-              "width": "40px",
+              "width": "auto",
               "items": [
                 {
                   "type": "TextBlock",
@@ -229,7 +229,8 @@
                   "wrap": true,
                   "weight": "Bolder"
                 }
-              ]
+              ],
+              "horizontalAlignment": "Left"
             },
             {
               "type": "Column",
@@ -241,7 +242,9 @@
                   "wrap": true,
                   "weight": "Bolder"
                 }
-              ]
+              ],
+              "horizontalAlignment": "Left",
+              "spacing": "Medium"
             },
             {
               "type": "Column",
@@ -286,7 +289,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Registered nurse",
+                  "text": "Registered Nurse",
                   "wrap": true,
                   "isSubtle": true
                 }
@@ -338,7 +341,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Registered nurse",
+                  "text": "Registered Nurse",
                   "wrap": true,
                   "isSubtle": true
                 }
@@ -390,7 +393,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Registered nurse",
+                  "text": "Registered Nurse",
                   "wrap": true,
                   "isSubtle": true
                 }

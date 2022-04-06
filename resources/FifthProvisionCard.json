@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
+  "version": "1.2",
   "body": [
     {
       "type": "ColumnSet",
@@ -70,17 +70,17 @@
             },
             {
               "type": "Input.Toggle",
-              "title": "Apple mackbook pro 13 inch",
+              "title": "Apple Mackbook Pro 13 inch",
               "id": "11d11d"
             },
             {
               "type": "Input.Toggle",
-              "title": "LG 22 inch web screen monitor",
+              "title": "LG 22 inch Widescreen Monitor",
               "id": "11e11e"
             },
             {
               "type": "Input.Toggle",
-              "title": "Apple iphone 12",
+              "title": "Apple Iphone 12",
               "id": "11f11f"
             }
           ]
