@@ -93,6 +93,9 @@ class AdaptiveCardsBot extends ActivityHandler {
             break;
           case "Confirm":
             offerDetails.comments = context.activity.value.comments;
+            if(!offerDetails.comments || offerDetails.comments.trim().length === 0) {
+              offerDetails.comments = "N/A"
+            }
             offerDetails.salary = context.activity.value.salary;
             offerDetails.startDate = moment(context.activity.value.startDate, 'YYYY-MM-DD').format("DD MMMM YYYY");
             // await context.sendActivity({
