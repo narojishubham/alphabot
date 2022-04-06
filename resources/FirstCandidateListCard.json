@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.3",
+  "version": "1.2",
   "body": [
     {
       "type": "ColumnSet",
@@ -103,7 +103,8 @@
                           "text": "Sarah Smith",
                           "wrap": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 },
@@ -131,7 +132,8 @@
                           "text": "Registered nurse",
                           "wrap": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 },
@@ -159,7 +161,8 @@
                           "text": "UK",
                           "wrap": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 }

@@ -83,7 +83,8 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 },
@@ -112,7 +113,8 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 },
@@ -141,7 +143,8 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 },
@@ -170,7 +173,8 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 },
@@ -199,7 +203,8 @@
                           "isSubtle": true,
                           "text": "$100k - $150k"
                         }
-                      ]
+                      ],
+                      "spacing": "Small"
                     }
                   ]
                 }
@@ -219,7 +224,8 @@
             }
           ]
         }
-      ]
+      ],
+      "style": "emphasis"
     },
     {
       "type": "TextBlock",
@@ -245,30 +251,8 @@
       "size": "Medium"
     },
     {
-      "type": "Input.ChoiceSet",
-      "choices": [
-        {
-          "title": "$100,000",
-          "value": "$100,000"
-        },
-        {
-          "title": "$120,000",
-          "value": "$120,000"
-        },
-        {
-          "title": "$150,000",
-          "value": "$150,000"
-        }
-      ],
-      "placeholder": "Select salary",
-      "id": "salary"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Salary range for level 26 Developer",
-      "wrap": true,
-      "isSubtle": true,
-      "spacing": "Small"
+      "type": "Input.Text",
+      "placeholder": "Add Salary"
     },
     {
       "type": "TextBlock",
@@ -287,7 +271,8 @@
       "text": "Start date of the new hire",
       "wrap": true,
       "spacing": "Small",
-      "isSubtle": true
+      "isSubtle": true,
+      "size": "Small"
     },
     {
       "type": "TextBlock",

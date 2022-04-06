@@ -3,6 +3,13 @@
 
 const { ActivityHandler, CardFactory } = require("botbuilder");
 
+// Import AdaptiveCard content.
+// const FlightItineraryCard = require("../resources/FlightItineraryCard.json");
+// const ImageGalleryCard = require("../resources/ImageGalleryCard.json");
+// const LargeWeatherCard = require("../resources/LargeWeatherCard.json");
+// const RestaurantCard = require("../resources/RestaurantCard.json");
+// const SolitaireCard = require("../resources/SolitaireCard.json");
+
 var ACData = require("adaptivecards-templating");
 
 // Import AdaptiveCard content.
