@@ -3,13 +3,10 @@
 
 const { ActivityHandler, CardFactory } = require("botbuilder");
 
-// Import AdaptiveCard content.
-const FlightItineraryCard = require("../resources/FlightItineraryCard.json");
-const ImageGalleryCard = require("../resources/ImageGalleryCard.json");
-const LargeWeatherCard = require("../resources/LargeWeatherCard.json");
-const RestaurantCard = require("../resources/RestaurantCard.json");
-const SolitaireCard = require("../resources/SolitaireCard.json");
+var ACData = require("adaptivecards-templating");
 
+
+// Import AdaptiveCard content.
 // New  cards
 
 const FirstCandidateListCard = require("../resources/FirstCandidateListCard.json");
@@ -20,6 +17,9 @@ const FifthProvisionCard = require("../resources/FifthProvisionCard.json");
 const SixthCardSendEmail = require("../resources/SixthCardSendEmail.json");
 const SeventhInputCard = require("../resources/SeventhInputCard.json");
 const EightSuccessMessageForm = require("../resources/EightSuccessMessageForm.json");
+const OfferSummary = require("../resources/OfferSummary.json");
+const OfferSentNotification = require("../resources/OfferSentNotification.json");
+const moment = require("moment");
 // Create array of AdaptiveCard content, this will be used to send a random card to the user.
 const CARDS = [
   // FlightItineraryCard,
@@ -38,6 +38,13 @@ const CARDS = [
   SeventhInputCard,
   EightSuccessMessageForm,
 ];
+
+const offerDetails = {
+  salary: "",
+  startDate: "",
+  comments: "",
+  location: "Caperitino HQ"
+}
 
 const WELCOME_TEXT =
   "This bot will introduce you to Adaptive Cards. Type anything to see an Adaptive Card.";
@@ -66,7 +73,7 @@ class AdaptiveCardsBot extends ActivityHandler {
       //   text: "Here is an Adaptive Card:",
       //   attachments: [CardFactory.adaptiveCard(randomlySelectedCard)],
       // });
-      console.log("1 1  1 context.activity", context.activity.value);
+      console.log("context.activity", context.activity.value);
 
       //submit event
       if (context.activity.value) {
@@ -85,10 +92,25 @@ class AdaptiveCardsBot extends ActivityHandler {
             });
             break;
           case "Confirm":
+            offerDetails.comments = context.activity.value.comments;
+            offerDetails.salary = context.activity.value.salary;
+            offerDetails.startDate = moment(context.activity.value.startDate, 'YYYY-MM-DD').format("DD MMMM YYYY");
+            // await context.sendActivity({
+            //   text: "Sarah signed the offer",
+            //   attachments: [CardFactory.adaptiveCard(CARDS[2])],
+            // });
+            let template = new ACData.Template(OfferSummary);
+            const offerTemplateData = {
+              $root : offerDetails
+            }, offerSummarySchema = template.expand(offerTemplateData);
+            await context.sendActivity({
+              attachments: [CardFactory.adaptiveCard(offerSummarySchema), CardFactory.adaptiveCard(OfferSentNotification)],
+            });
             await context.sendActivity({
               text: "Sarah signed the offer",
               attachments: [CardFactory.adaptiveCard(CARDS[2])],
             });
+
             break;
           case "Cancel Offer":
             await context.sendActivity({

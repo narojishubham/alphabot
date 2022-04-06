@@ -16,8 +16,11 @@
         "url": "https://github.com"
     },
     "dependencies": {
+        "adaptive-expressions": "^4.15.0",
+        "adaptivecards-templating": "^2.2.0",
         "botbuilder": "~4.15.0",
         "dotenv": "~8.2.0",
+        "moment": "^2.29.2",
         "restify": "~8.5.1"
     },
     "devDependencies": {
