@@ -29,9 +29,6 @@
               "wrap": true
             }
           ],
-          "backgroundImage": {
-            "verticalAlignment": "Center"
-          },
           "verticalContentAlignment": "Center"
         }
       ]

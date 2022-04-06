@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.3",
+  "version": "1.2",
   "body": [
     {
       "type": "ColumnSet",
@@ -55,7 +55,7 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "text": "Compensation Guide",
-                  "size": "Large",
+                  "size": "Medium",
                   "weight": "Bolder"
                 },
                 {
@@ -67,7 +67,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
-                          "text": "💼Position:",
+                          "text": "🛖Position:",
                           "wrap": true,
                           "weight": "Bolder"
                         }
@@ -83,8 +83,7 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ],
-                      "spacing": "Small"
+                      ]
                     }
                   ]
                 },
@@ -111,11 +110,9 @@
                           "type": "TextBlock",
                           "text": "Head nurse",
                           "wrap": true,
-                          "isSubtle": true,
-                          "spacing": "None"
+                          "isSubtle": true
                         }
-                      ],
-                      "spacing": "Small"
+                      ]
                     }
                   ]
                 },
@@ -144,8 +141,7 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ],
-                      "spacing": "Small"
+                      ]
                     }
                   ]
                 },
@@ -174,8 +170,7 @@
                           "wrap": true,
                           "isSubtle": true
                         }
-                      ],
-                      "spacing": "Small"
+                      ]
                     }
                   ]
                 },
@@ -204,8 +199,7 @@
                           "isSubtle": true,
                           "text": "$100k - $150k"
                         }
-                      ],
-                      "spacing": "Small"
+                      ]
                     }
                   ]
                 }
@@ -223,8 +217,7 @@
                 }
               ]
             }
-          ],
-          "style": "emphasis"
+          ]
         }
       ]
     },
@@ -232,9 +225,9 @@
       "type": "TextBlock",
       "text": "⬇️Offer Form",
       "wrap": true,
-      "size": "Large",
+      "size": "Medium",
       "weight": "Bolder",
-      "spacing": "Large"
+      "spacing": "Medium"
     },
     {
       "type": "TextBlock",
@@ -249,23 +242,45 @@
       "wrap": true,
       "spacing": "Medium",
       "weight": "Bolder",
-      "size": "Large"
+      "size": "Medium"
     },
     {
-      "type": "Input.Text",
-      "placeholder": "Add salary"
+      "type": "Input.ChoiceSet",
+      "choices": [
+        {
+          "title": "$100,000",
+          "value": "$100,000"
+        },
+        {
+          "title": "$120,000",
+          "value": "$120,000"
+        },
+        {
+          "title": "$150,000",
+          "value": "$150,000"
+        }
+      ],
+      "placeholder": "Select salary",
+      "id": "salary"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Salary range for level 26 Developer",
+      "wrap": true,
+      "isSubtle": true,
+      "spacing": "Small"
     },
     {
       "type": "TextBlock",
       "text": "Start Date",
       "wrap": true,
-      "size": "Large",
+      "size": "Medium",
       "weight": "Bolder",
       "spacing": "Medium"
     },
     {
       "type": "Input.Date",
-      "id": "123123123"
+      "id": "startDate"
     },
     {
       "type": "TextBlock",
@@ -278,15 +293,13 @@
       "type": "TextBlock",
       "text": "Additional Comments (Optional)",
       "wrap": true,
-      "spacing": "Medium",
-      "size": "Large",
-      "weight": "Bolder"
+      "spacing": "Medium"
     },
     {
       "type": "Input.Text",
       "placeholder": "Welcome!",
       "isMultiline": true,
-      "id": "13131313"
+      "id": "comments"
     },
     {
       "type": "TextBlock",

@@ -5,9 +5,8 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "Offer Confirmed!:white_check_mark:",
+            "text": "Offer Confirmed!✅",
             "wrap": true,
-            "style": "heading",
             "fontType": "Default",
             "size": "Large"
         },
