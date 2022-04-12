@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -35,7 +35,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "App provisioned⬇️",
+      "text": "App provisioned ⬇️",
       "wrap": true,
       "spacing": "Medium",
       "size": "Large",
@@ -57,7 +57,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "1️⃣Workday ",
+              "text": "1️⃣ Workday ",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -104,7 +104,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "2️⃣Service Now",
+              "text": "2️⃣ Service Now",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -166,7 +166,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "3️⃣Office 365",
+              "text": "3️⃣ Office 365",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -228,7 +228,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "4️⃣Jira",
+              "text": "4️⃣ Jira",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -275,7 +275,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "5️⃣Zyoom",
+              "text": "5️⃣ Zoom",
               "wrap": true,
               "size": "Large",
               "weight": "Bolder"
@@ -332,7 +332,7 @@
               "actions": [
                 {
                   "type": "Action.ShowCard",
-                  "title": "✅Additional Application",
+                  "title": "✅ Additional Application",
                   "card": {
                     "type": "AdaptiveCard",
                     "body": [
@@ -350,7 +350,7 @@
                       },
                       {
                         "type": "Input.Toggle",
-                        "title": "Saleforce",
+                        "title": "Salesforce",
                         "id": "1a1a1a"
                       },
                       {

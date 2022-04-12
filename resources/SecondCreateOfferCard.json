@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.2",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -63,7 +63,7 @@
                   "inlines": [
                     {
                       "type": "TextRun",
-                      "text": "🛖Position:",
+                      "text": "🛖 Position:",
                       "weight": "Bolder"
                     },
                     {
@@ -78,7 +78,7 @@
                   "inlines": [
                     {
                       "type": "TextRun",
-                      "text": "👤Persona:",
+                      "text": "👤 Persona:",
                       "weight": "Bolder"
                     },
                     {
@@ -93,7 +93,7 @@
                   "inlines": [
                     {
                       "type": "TextRun",
-                      "text": "🌍Location: ",
+                      "text": "🌍 Location: ",
                       "weight": "Bolder"
                     },
                     {
@@ -108,7 +108,7 @@
                   "inlines": [
                     {
                       "type": "TextRun",
-                      "text": "🎚️Level:  ",
+                      "text": "🎚️ Level:  ",
                       "weight": "Bolder"
                     },
                     {
@@ -139,7 +139,7 @@
           "inlines": [
             {
               "type": "TextRun",
-              "text": "💰Level Salary:",
+              "text": "💰 Level Salary:",
               "weight": "Bolder"
             },
             {
@@ -154,7 +154,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "⬇️Offer Form",
+      "text": "Offer Form ⬇️",
       "wrap": true,
       "size": "Medium",
       "weight": "Bolder",
@@ -162,7 +162,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "✏️Fill out the offer based on the above compensation guide.",
+      "text": "✏️ Fill out the offer based on the above compensation guide.",
       "wrap": true,
       "isSubtle": true,
       "spacing": "Medium"
@@ -203,7 +203,9 @@
       "type": "TextBlock",
       "text": "Additional Comments (Optional)",
       "wrap": true,
-      "spacing": "Medium"
+      "spacing": "Medium",
+      "size": "Medium",
+      "weight": "Bolder"
     },
     {
       "type": "Input.Text",

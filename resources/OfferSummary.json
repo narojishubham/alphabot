@@ -35,7 +35,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Offer Confirmed!✅",
+      "text": "Offer Confirmed! ✅",
       "wrap": true,
       "fontType": "Default",
       "size": "Large",
@@ -49,7 +49,7 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "🔎Please review the following details",
+          "text": "🔎 Please review the following details",
           "wrap": true
         }
       ]
@@ -59,12 +59,12 @@
       "inlines": [
         {
           "type": "TextRun",
-          "text": "💰Salary:",
+          "text": "💰 Salary:",
           "weight": "Bolder"
         },
         {
           "type": "TextRun",
-          "text": " ${salary}"
+          "text": " $1200"
         }
       ]
     },
@@ -73,7 +73,7 @@
       "inlines": [
         {
           "type": "TextRun",
-          "text": "🌍Location:",
+          "text": "🌍 Location:",
           "weight": "Bolder"
         },
         {
@@ -87,7 +87,7 @@
       "inlines": [
         {
           "type": "TextRun",
-          "text": "📅Start date:",
+          "text": "📅 Start date:",
           "weight": "Bolder"
         },
         {
@@ -101,7 +101,7 @@
       "inlines": [
         {
           "type": "TextRun",
-          "text": "💬Comments:",
+          "text": "💬 Comments:",
           "weight": "Bolder"
         },
         {

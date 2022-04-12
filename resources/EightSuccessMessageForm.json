@@ -4,8 +4,41 @@
   "version": "1.2",
   "body": [
     {
-      "type": "Image",
-      "url": "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Email%20sent.png"
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIYUqTIGOmzSzNP04yfhoj48Fnx-NBphk2SQ&usqp=CAU",
+              "size": "Medium"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "wrap": true,
+              "text": "Welcome email has been sent Sarah Smith"
+            }
+          ],
+          "horizontalAlignment": "Left",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Awesome, you are all done! Feel free to archive this channel when you are ready...",
+      "weight": "Bolder",
+      "separator": true,
+      "spacing": "Medium"
     }
   ]
 }
