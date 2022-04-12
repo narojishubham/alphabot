@@ -94,11 +94,18 @@
       "id": "123d"
     },
     {
+      "type": "TextBlock",
+      "text": "Comments will appear after PS.",
+      "wrap": true,
+      "isSubtle": true,
+      "spacing": "Small"
+    },
+    {
       "type": "ColumnSet",
       "columns": [
         {
           "type": "Column",
-          "width": "90px",
+          "width": "auto",
           "items": [
             {
               "type": "ActionSet",
@@ -116,7 +123,7 @@
         },
         {
           "type": "Column",
-          "width": "90px",
+          "width": "auto",
           "items": [
             {
               "type": "ActionSet",
