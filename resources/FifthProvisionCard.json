@@ -103,7 +103,7 @@
       "columns": [
         {
           "type": "Column",
-          "width": "100px",
+          "width": "auto",
           "items": [
             {
               "type": "ActionSet",
@@ -118,7 +118,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "minHeight": "1px"
         }
       ],
       "spacing": "Medium"

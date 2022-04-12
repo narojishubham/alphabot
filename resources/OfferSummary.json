@@ -4,13 +4,44 @@
   "version": "1.2",
   "body": [
     {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "HR Bot",
+              "wrap": true,
+              "size": "Medium",
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "12:30 Pm",
+              "wrap": true
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
       "type": "TextBlock",
       "text": "Offer Confirmed!✅",
       "wrap": true,
       "fontType": "Default",
       "size": "Large",
       "weight": "Bolder",
-      "spacing": "Large"
+      "spacing": "Medium",
+      "separator": true
     },
     {
       "type": "Container",

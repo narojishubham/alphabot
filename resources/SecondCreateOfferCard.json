@@ -59,152 +59,62 @@
                   "weight": "Bolder"
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "🛖Position:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "🛖Position:",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Registered Nurse",
-                          "wrap": true,
-                          "isSubtle": true
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": " Registered Nurse",
+                      "isSubtle": true
                     }
                   ]
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "👤Persona:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "👤Persona:",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Head Nurse",
-                          "wrap": true,
-                          "isSubtle": true
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": "  Head Nurse",
+                      "isSubtle": true
                     }
                   ]
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "🌍Location:  ",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "🌍Location: ",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Caperitino HQ",
-                          "wrap": true,
-                          "isSubtle": true
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": "  UK",
+                      "isSubtle": true
                     }
                   ]
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "🎚️Level:  ",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "🎚️Level:  ",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "26",
-                          "wrap": true,
-                          "isSubtle": true
-                        }
-                      ],
-                      "spacing": "Small"
-                    }
-                  ]
-                },
-                {
-                  "type": "ColumnSet",
-                  "columns": [
-                    {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "💰Level Salary:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "wrap": true,
-                          "isSubtle": true,
-                          "text": "$100k - $150k"
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": "  26",
+                      "isSubtle": true
                     }
                   ]
                 }
@@ -221,6 +131,21 @@
                   "width": "140px"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "💰Level Salary:",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": "  $100k - $150k",
+              "isSubtle": true
             }
           ]
         }

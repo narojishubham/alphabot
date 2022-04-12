@@ -80,89 +80,44 @@
                   "weight": "Bolder"
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Name:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "Name:",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "stretch",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Sarah Smith",
-                          "wrap": true
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": " Sarah Smaith"
                     }
                   ]
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Position:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "Position:",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Registered Nurse",
-                          "wrap": true
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": " Registered Nurse"
                     }
                   ]
                 },
                 {
-                  "type": "ColumnSet",
-                  "columns": [
+                  "type": "RichTextBlock",
+                  "inlines": [
                     {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Location:",
-                          "wrap": true,
-                          "weight": "Bolder"
-                        }
-                      ]
+                      "type": "TextRun",
+                      "text": "Location:",
+                      "weight": "Bolder"
                     },
                     {
-                      "type": "Column",
-                      "width": "stretch",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "UK",
-                          "wrap": true
-                        }
-                      ],
-                      "spacing": "Small"
+                      "type": "TextRun",
+                      "text": " UK"
                     }
                   ]
                 }
@@ -229,8 +184,7 @@
                   "wrap": true,
                   "weight": "Bolder"
                 }
-              ],
-              "horizontalAlignment": "Left"
+              ]
             },
             {
               "type": "Column",
@@ -243,7 +197,6 @@
                   "weight": "Bolder"
                 }
               ],
-              "horizontalAlignment": "Left",
               "spacing": "Medium"
             },
             {
@@ -259,7 +212,8 @@
               ]
             }
           ],
-          "style": "emphasis"
+          "style": "emphasis",
+          "horizontalAlignment": "Left"
         },
         {
           "type": "ColumnSet",
