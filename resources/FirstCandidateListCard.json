@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
+  "version": "1.2",
   "body": [
     {
       "type": "ColumnSet",
@@ -89,7 +89,7 @@
                     },
                     {
                       "type": "TextRun",
-                      "text": " Sarah Smaith"
+                      "text": " Sarah Smith"
                     }
                   ]
                 },
@@ -117,7 +117,7 @@
                     },
                     {
                       "type": "TextRun",
-                      "text": " UK"
+                      "text": " Cupertino HQ"
                     }
                   ]
                 }
@@ -152,7 +152,8 @@
                     "url": "https://www.linkedin.com/in/ollycogan/",
                     "title": "Linked in"
                   },
-                  "horizontalAlignment": "Center"
+                  "horizontalAlignment": "Left",
+                  "width": "147px"
                 }
               ]
             }
@@ -237,7 +238,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Sarah Smith ",
+                  "text": "Ermendrud Anwar",
                   "wrap": true,
                   "weight": "Bolder"
                 },
@@ -289,7 +290,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Sarah Smith ",
+                  "text": "Fedir Elizabete",
                   "wrap": true,
                   "weight": "Bolder"
                 },
@@ -341,7 +342,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Sarah Smith ",
+                  "text": "Marjo Alicia\n",
                   "wrap": true,
                   "weight": "Bolder"
                 },

@@ -64,7 +64,7 @@
         },
         {
           "type": "TextRun",
-          "text": " $1200"
+          "text": " £1200"
         }
       ]
     },
@@ -78,7 +78,7 @@
         },
         {
           "type": "TextRun",
-          "text": " ${location}"
+          "text": " Cupertino HQ"
         }
       ]
     },
@@ -92,7 +92,7 @@
         },
         {
           "type": "TextRun",
-          "text": " ${startDate}"
+          "text": " 23 Apr 2022 "
         }
       ]
     },

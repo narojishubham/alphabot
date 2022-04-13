@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
+  "version": "1.2",
   "body": [
     {
       "type": "ColumnSet",
@@ -42,12 +42,12 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "🖋️Offer letter has been sent to Sarah",
+              "text": "🖋️ Offer letter has been sent to Sarah",
               "wrap": true
             },
             {
               "type": "TextBlock",
-              "text": "💡I will send a reminder to Sarah in two days ",
+              "text": "💡 I will send a reminder to Sarah in two days ",
               "wrap": true
             },
             {
