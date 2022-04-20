@@ -177,7 +177,6 @@
           "columns": [
             {
               "type": "Column",
-              "width": "auto",
               "items": [
                 {
                   "type": "TextBlock",
@@ -185,11 +184,11 @@
                   "wrap": true,
                   "weight": "Bolder"
                 }
-              ]
+              ],
+              "width": 22
             },
             {
               "type": "Column",
-              "width": "stretch",
               "items": [
                 {
                   "type": "TextBlock",
@@ -198,11 +197,13 @@
                   "weight": "Bolder"
                 }
               ],
-              "spacing": "Medium"
+              "spacing": "Medium",
+              "width": 62,
+              "horizontalAlignment": "Left"
             },
             {
               "type": "Column",
-              "width": "auto",
+              "width": 20,
               "items": [
                 {
                   "type": "TextBlock",
@@ -210,7 +211,8 @@
                   "wrap": true,
                   "weight": "Bolder"
                 }
-              ]
+              ],
+              "horizontalAlignment": "Center"
             }
           ],
           "style": "emphasis",
@@ -411,7 +413,7 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "✅Create Offer",
+                  "title": "✅ Create Offer",
                   "data": {
                     "card": "Create Offer"
                   }
@@ -429,7 +431,7 @@
               "actions": [
                 {
                   "type": "Action.Submit",
-                  "title": "❌Not a Fit",
+                  "title": "❌ Not a Fit",
                   "data": {
                     "card": "Offer Cancelled"
                   }
